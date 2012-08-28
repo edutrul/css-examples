@@ -60,11 +60,17 @@ body {
     background-color: #6495ed;
     opacity: 0.8;
     font-size: 18px;
-    
+    display: none;
 }
 
-.news-item-title p {
+.news-item-title a {
     padding-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.news-item-title a:hover {
+    text-decoration: underline;
 }
 
 .news-item-metadata {
@@ -74,6 +80,7 @@ body {
 .news-item-social {
     float: left;
     background: white;
+    display: none;
 }
 .news-item-social img {
     margin: 5px;
@@ -85,5 +92,6 @@ body {
     line-height: 30px;
     font-size: 15px;
     padding: 0px 5px;
+    display: none;
 }​
 
