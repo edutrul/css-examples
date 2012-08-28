@@ -17,6 +17,7 @@ body {
 #news {
     font-family: Arial, Helvetica;
     color: white;
+    background-color: #fff;
 }
 
 .rows {
@@ -94,4 +95,10 @@ body {
     padding: 0px 5px;
     display: none;
 }​
+
+#more-news a {
+  background-color: red;
+  color: red !important;
+}
+
 
