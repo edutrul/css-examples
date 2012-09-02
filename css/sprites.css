@@ -1,0 +1,12 @@
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+ul#sprite-menu {
+  widht: 450px;
+}
+
+ul#sprite-menu a {
+  background-image: url('../images/sprite.gif');
+}
