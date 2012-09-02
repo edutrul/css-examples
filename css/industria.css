@@ -50,7 +50,6 @@ body {
 
 }
 
-
 .news-item-title {
     position: absolute;
     bottom: 0;
@@ -61,6 +60,7 @@ body {
     opacity: 0.8;
     font-size: 18px;
     display: none;
+    padding-top: 15px;
 }
 
 .news-item-title a {
