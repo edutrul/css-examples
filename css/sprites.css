@@ -17,8 +17,6 @@ ul#sprite-menu  li a {
   height: 48.5px;
 }
 
-
-
 ul#sprite-menu  li a.home {
   width: 99px;
   background-position: 0 0;
@@ -40,7 +38,6 @@ ul#sprite-menu  li a.contact {
 }
 
 /* Styles for pseudo element a:hover */
-
 ul#sprite-menu  li a.home:hover {
   background-position: 0 -49px;
 }
@@ -74,10 +71,35 @@ ul#sprite-menu  li a.contact:active {
   background-position: -280px -98px;
 }
 
-li.active a {
+/* Styles for pseudo element a:focus */
+ul#sprite-menu  li a.home:focus {
   background-position: 0 -146px;
+}
+
+ul#sprite-menu  li a.about:focus {
+  background-position: -99px -146px;
+}
+
+ul#sprite-menu  li a.services:focus {
+  background-position: -182px -146px;
+}
+
+ul#sprite-menu  li a.contact:focus {
+  background-position: -280px -146px;
 }
 
 a {
   outline: none;
+}
+
+.clearfix {
+  display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+  display: block;
+}
+ 
+* html .clearfix {
+  height: 1%;
 }
