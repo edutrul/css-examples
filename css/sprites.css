@@ -1,12 +1,79 @@
 #wrapper {
-    margin: 0 auto;
-    width: 960px;
+  margin: 0 auto;
+  width: 960px;
 }
 
 ul#sprite-menu {
-  widht: 450px;
+  width: 450px;
+  list-style: none;
+  margin: 250px auto;
 }
 
-ul#sprite-menu a {
-  background-image: url('../images/sprite.gif');
+ul#sprite-menu  li a {
+  display: block; 
+  float: left; 
+  background-image: url('../images/sprite.gif'); 
+  text-indent: -9999px;
+  height: 48.5px;
+}
+
+
+
+ul#sprite-menu  li a.home {
+  width: 99px;
+  background-position: 0 0;
+}
+
+ul#sprite-menu  li a.about {
+  width: 81px;
+  background-position: -99px 0;
+}
+
+ul#sprite-menu  li a.services {
+  width: 98px;
+  background-position: -182px 0;
+}
+
+ul#sprite-menu  li a.contact {
+  width: 121px;
+  background-position: -280px 0;
+}
+
+/* Styles for pseudo element a:hover */
+
+ul#sprite-menu  li a.home:hover {
+  background-position: 0 -49px;
+}
+
+ul#sprite-menu  li a.about:hover {
+  background-position: -99px -49px;
+}
+
+ul#sprite-menu  li a.services:hover {
+  background-position: -182px -49px;
+}
+
+ul#sprite-menu  li a.contact:hover {
+  background-position: -280px -49px;
+}
+
+/* Styles for pseudo element a:active */
+ul#sprite-menu  li a.home:active {
+  background-position: 0 -98px;
+}
+
+ul#sprite-menu  li a.about:active {
+  background-position: -99px -98px;
+}
+
+ul#sprite-menu  li a.services:active {
+  background-position: -182px -98px;
+}
+
+ul#sprite-menu  li a.contact:active {
+  background-position: -280px -98px;
+}
+
+a {
+  outline: none;
 }
