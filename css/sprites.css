@@ -74,6 +74,10 @@ ul#sprite-menu  li a.contact:active {
   background-position: -280px -98px;
 }
 
+li.active a {
+  background-position: 0 -146px;
+}
+
 a {
   outline: none;
 }
