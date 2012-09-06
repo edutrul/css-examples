@@ -72,6 +72,7 @@ ul#sprite-menu  li a.contact:active {
 }
 
 /* Styles for pseudo element a:focus */
+/*
 ul#sprite-menu  li a.home:focus {
   background-position: 0 -146px;
 }
@@ -87,6 +88,7 @@ ul#sprite-menu  li a.services:focus {
 ul#sprite-menu  li a.contact:focus {
   background-position: -280px -146px;
 }
+*/
 
 a {
   outline: none;

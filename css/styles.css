@@ -67,11 +67,17 @@
   text-decoration: underline;
 }
 
-.service .service-title {
-  line-height: 35px;
-  font-size: 1.4em;
-  font-weight: bold;
-  color: #616161;
+  .service .service-title {
+    line-height: 35px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #616161;
+  }
+
+@media print {
+  .service .service-title {
+    color: red;
+  }
 }
 
 .service .service-picture img{
