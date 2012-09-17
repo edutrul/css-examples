@@ -1,0 +1,205 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#wrapper {
+  width: 775px;
+  margin: 0 auto;
+  background: #000000;
+  color: #fff;
+}
+
+body {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #25c1d1;
+}
+
+.block-welcome-title .highlight {
+  color: #d4ed24;
+}
+/* ==========HEADER============= */
+#header {
+  background: #eaeaea;
+}
+
+#logo-header {
+  float:left;
+}
+
+#menu-header {
+  font-size: 0.96em;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+#menu-header ul li {
+  width: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu-header a {
+  color: #615c5c;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 20px;
+  line-height: 60px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#menu-header ul li a:hover {
+  color: #3CA462;
+}
+/* ==========END OF HEADER============= */
+
+/*================ SUBHEADER ============*/
+#subheader-logo {
+  width: 735px;
+  height: 270px;
+  background: url('../images/test_landscape.jpg');
+}
+/*================ END OF SUBHEADER ============*/
+
+/*================ MAIN CONTENT ============*/
+
+#main-wrapper {
+  padding: 30px 40px 0px 40px;
+}
+
+#sidebar-left {
+  width: 430px;
+}
+
+.block-welcome-image {
+  float: left;
+  padding: 15px 28px 0px 0px;
+}
+
+#block-financial-services {
+  clear: both;
+  width: 220px;
+}
+
+.bf-item {
+  
+}
+
+#block-financial-services-list-item-a {
+  background: url('../images/biz_icona');
+  background-repeat: no-repeat;
+}
+
+#block-financial-services-list-item-b {
+  background: url('../images/biz_iconb');
+  background-repeat: no-repeat;
+}
+
+#block-financial-services-list-item-c {
+  background: url('../images/biz_iconc');
+  background-repeat: no-repeat;
+}
+
+#block-financial-services-list-item-d {
+  background: url('../images/biz_icond');
+  background-repeat: no-repeat;
+}
+
+#block-financial-services-list-item-e {
+  background: url('../images/biz_icone');
+  background-repeat: no-repeat;
+}
+
+#block-financial-services-list-item-f {
+  background: url('../images/biz_iconf');
+  background-repeat: no-repeat;
+}
+
+#block-financial-services-list-item-g {
+  background: url('../images/biz_icong');
+  background-repeat: no-repeat;
+}
+
+
+/*================ END OF MAIN CONTENT ============*/
+
+/* ==========FOOTER============= */
+#nav-footer {
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+ul#nav-footer-menu {
+  text-decoration: none;
+}
+
+#menu-footer {
+  width: 450px;
+  margin: 0 auto;
+  background: #414241;
+}
+
+.nav-menu-item-footer a {
+  color: #fff;
+}
+
+.nav-menu-item-footer a:hover {
+  color: #D0D0D0;
+}
+/* ==========END OF FOOTER============= */
+
+/* Services */
+#services {
+  background: #fff;
+}
+
+.service {
+  width: 240px;
+  height: 200px;
+  float: left;
+}
+
+.service .service-link a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #1480A3;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.service .service-link a:hover {
+  text-decoration: underline;
+}
+
+.service .service-title {
+  line-height: 35px;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #616161;
+}
+
+.service .service-picture img{
+  width: 220px;
+  height: 137px;
+}
