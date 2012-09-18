@@ -24,6 +24,7 @@ body {
 .description {
   font-size: 14px;
   text-transform: uppercase;
+  color: #BFBFBF;
 }
 
 .highlight {
@@ -33,6 +34,7 @@ body {
 .block-welcome-title .highlight {
   color: #d4ed24;
 }
+
 /* ==========HEADER============= */
 #header {
   background: #eaeaea;
@@ -200,11 +202,17 @@ a:hover {
 /*================ MAIN CONTENT ============*/
 
 #main-wrapper {
-  padding: 30px 40px 0px 40px;
+  padding: 30px 0px 0px 15px;
 }
 
 #sidebar-left {
-  width: 430px;
+  width: 470px;
+  float: left;
+}
+
+#sidebar-right {
+  width: 280px;
+  float: left;
 }
 
 .block-welcome-image {
@@ -214,65 +222,118 @@ a:hover {
 
 #block-financial-services {
   clear: both;
-  width: 220px;
+  width: 50%;
+  float: left;
+}
+
+.block-news-content-item a {
+  color: #d4ed24;
+}
+
+.block-news-content-item-link span {
+  font-weight: bold;
+}
+
+
+.block-right {
+  background: url('../images/');
 }
 
 .bf-item {
-  
+
+}
+
+#block-financial-services-list li{
+  border-bottom: dashed 1px;
+  padding: 10px 10px;
+}
+
+#block-financial-services-list li:last-child {
+  border-bottom: none;
+  padding: 10px 10px;
 }
 
 #block-financial-services-list-item-a {
-  background: url('../images/biz_icona');
-  background-repeat: no-repeat;
+  background: url('../images/biz_icona') no-repeat 1px 10px;
 }
 
 #block-financial-services-list-item-b {
-  background: url('../images/biz_iconb');
-  background-repeat: no-repeat;
+  background: url('../images/biz_iconb') no-repeat 1px 10px;
 }
 
 #block-financial-services-list-item-c {
-  background: url('../images/biz_iconc');
-  background-repeat: no-repeat;
+  background: url('../images/biz_iconc') no-repeat 1px 10px;
 }
 
 #block-financial-services-list-item-d {
-  background: url('../images/biz_icond');
-  background-repeat: no-repeat;
+  background: url('../images/biz_icond') no-repeat 1px 10px;
 }
 
 #block-financial-services-list-item-e {
-  background: url('../images/biz_icone');
-  background-repeat: no-repeat;
+  background: url('../images/biz_icone') no-repeat 1px 10px;
 }
-
 #block-financial-services-list-item-f {
-  background: url('../images/biz_iconf');
-  background-repeat: no-repeat;
+  background: url('../images/biz_iconf') no-repeat 1px 10px;
 }
 
 #block-financial-services-list-item-g {
-  background: url('../images/biz_icong');
-  background-repeat: no-repeat;
+  background: url('../images/biz_icong') no-repeat 1px 10px;
+}
+
+#block-market-analysis {
+  float: left;
+  width: 50%;
+}
+
+#block-financial-services-items {
+  margin: 10px 10px;
+}
+
+.block-financial-services-item {
+  padding-bottom: 15px;
+}
+
+.block-financial-services-item img {
+  float: left;
+}
+
+.block-financial-services-item span {
+  float: left;
+  width: 140px;
+  margin-left: 15px;
+}
+
+.block-financial-services-item a {
+  float: left;
+  width: 180px;
+  color: #1480A3;
 }
 
 
 /*================ END OF MAIN CONTENT ============*/
 
 /* ==========FOOTER============= */
-#nav-footer {
-  margin: 0 auto;
-  line-height: 20px;
+
+#footer {
+  padding: 0px 15px 0px 15px;
 }
 
-ul#nav-footer-menu {
+#footer-content {
+  margin: 0 auto;
+  line-height: 20px;
+  background: #414241;
+}
+
+ul#nav-menu-footer {
   text-decoration: none;
+  margin: 0 auto;
+  width: 400px;
 }
 
 #menu-footer {
-  width: 450px;
+  width: 80%;
+  height: 40px;
   margin: 0 auto;
-  background: #414241;
 }
 
 .nav-menu-item-footer a {
@@ -282,6 +343,13 @@ ul#nav-footer-menu {
 .nav-menu-item-footer a:hover {
   color: #D0D0D0;
 }
+
+#menu-footer-copyright {
+  margin: 0 auto;
+  width: 180px;
+  height: 25px;
+}
+
 /* ==========END OF FOOTER============= */
 
 /* Services */
@@ -317,4 +385,34 @@ ul#nav-footer-menu {
 .service .service-picture img{
   width: 220px;
   height: 137px;
+}
+
+
+
+
+ul#block-financial-services-list li {
+  padding-left: 25px;
+  display: block;
+}
+
+/*********** clearfix ******************/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
 }
