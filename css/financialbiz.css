@@ -9,6 +9,7 @@
   margin: 0 auto;
   background: #000000;
   color: #fff;
+  font-family: sans;
 }
 
 body {
@@ -43,6 +44,9 @@ body {
 
 #menu-header {
   font-size: 0.96em;
+  background: url('../images/biz_bgmenu.jpg');
+  height: 72px;
+
 }
 
 ul li {
@@ -50,8 +54,20 @@ ul li {
   display: inline;
 }
 
+#menu-header ul {
+  padding: 10px 0px 0px 10px;
+}
+
 #menu-header ul li {
   width: 30px;
+  background: url('../images/biz_bullet.png') no-repeat 1px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+#menu-header ul li:first-child {
+  background: none;
 }
 
 a {
@@ -75,11 +91,110 @@ a:hover {
 /* ==========END OF HEADER============= */
 
 /*================ SUBHEADER ============*/
+#subheader {
+  position: relative;
+}
+
+#title-subheader {
+  margin: 15px 15px;
+}
+
 #subheader-logo {
   width: 735px;
   height: 270px;
-  background: url('../images/test_landscape.jpg');
+  background: url('../images/biz_bgskyblue.png');
+  
 }
+
+#subheader-cloud {
+  width: 261px;
+  height: 155px;
+  position: absolute;
+  background: url('../images/biz_cloud.png') no-repeat;
+  top: 48px;
+  left: 0px;
+  opacity: 1.7;
+}
+
+#subheader-cloud-b {
+  width: 490px;
+  height: 263px;
+  position: absolute;
+  background: url('../images/biz_cloud2.png') no-repeat;
+  top: 17px;
+  right: 0px;
+  opacity: 1.7;
+}
+
+#subheader-tree {
+  width: 346px;
+  height: 367px;
+  position: absolute;
+  background: url('../images/biz_tree.png') no-repeat;
+  bottom: -30px;
+  right: 0px;
+  opacity: 1.7;
+}
+
+#subheader-text {
+  top: 50px;
+  left: 45px;
+  width: 330px;
+  position: relative;
+  color: #4D4D4D;
+}
+
+#subheader-title {
+  font-size: 60px;
+  color: #000;
+}
+
+#subheader-subtitle {
+  font-size: 19px;
+  color: #000;
+  padding-left: 5px;
+}
+
+#subheader-presentation {
+  width: 126px;
+  height: 22px;
+  position: relative;
+  background: url('../images/biz_shape.png') no-repeat;
+  left: 85px;
+  font-size: 9px;
+  margin: 0px auto;
+}
+
+#subheader-presentation-logo {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background: url('../images/biz_go.png') no-repeat;
+  margin: 5px 0px 0px 5px;
+}
+
+#subheader-presentation-link {
+  padding: 5px 0px 0px 20px; 
+}
+
+#subheader-presentation-link a {
+  color: #fff;
+}
+
+
+#subheader-grass {
+  width: 740px;
+  height: 192px;
+  position: absolute;
+  background: url('../images/biz_grass.png') no-repeat;
+  bottom: -70px;
+  opacity: 1.7;
+}
+
+#subheader {
+  margin: 20px 0px 0px 20px;
+}
+
 /*================ END OF SUBHEADER ============*/
 
 /*================ MAIN CONTENT ============*/
